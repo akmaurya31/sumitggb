@@ -1,0 +1,65 @@
+.order-btn{
+    font-size: 10px;
+}
+
+
+.product-detail-table{
+    td{
+        padding: 10px 10px;
+    }
+}
+@media screen and (max-width: 768px) {
+    
+    .card-item{
+        width: 100%;
+    }
+}
+.cancel-button{
+    font-family: "Okra", Helvetica;
+    cursor: pointer;
+    width: max-content;
+    
+    border: 1px solid #318616;
+   
+    color: #318616;
+    font-weight: 600;
+    font-size: 13px;
+    background-color: #f7fff9;
+    border-radius: 10px;
+    gap: 0.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:8px;
+}
+.dicount-label{
+    font-size: 10px;
+    font-weight: bold;
+    /* background: red; */
+    // border: 1px solid rgb(12, 131, 31);
+    // padding: 4px;
+    border-radius: 20px;
+    background-color: #f7fff9;
+    color: rgb(12, 131, 31);
+}
+.discount-label-warapper{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.left-text-modal, .rigth-text-modal{
+    font-size: 14px;
+}
+@media screen and (max-width: 1024px) {
+    
+    .order-detail{
+        span{
+            font-size: 12px;
+        }
+    }
+    .left-text-modal, .rigth-text-modal{
+        font-size: 12px;
+    }
+}

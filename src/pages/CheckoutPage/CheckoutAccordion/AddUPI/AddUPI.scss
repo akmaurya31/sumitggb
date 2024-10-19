@@ -1,0 +1,92 @@
+.upi-card-parent {
+  padding: 10px 40px;
+  border: 0.15rem solid rgb(17, 145, 153);
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: rgb(246, 252, 252);
+  cursor: pointer;
+
+  .AddCardTile__CardName {
+    line-height: 1.5;
+    margin: 0px;
+    color: rgb(54, 54, 54);
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  .card-img {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+    img {
+      position: relative;
+      max-width: 100%;
+      width: 44px;
+      // height: 2.5rem;
+      overflow: hidden;
+    }
+  }
+
+  .card-form {
+    .MuiFormControl-root {
+      width: 100%;
+
+      #outlined-basic-label {
+      }
+      .MuiInputLabel-shrink {
+        pointer-events: none;
+        transition: all 0.2s ease 0s;
+        color: rgb(181, 181, 181);
+        background: rgb(255, 255, 255);
+        padding: 0px 5px;
+        max-width: 90%;
+        max-height: 2.2rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+    .MuiInputBase-root {
+      .MuiInputBase-input {
+        padding: 10px;
+        height: 30px;
+      }
+    }
+    input {
+      background: rgb(255, 255, 255);
+      border-radius: 0.6rem;
+      border: 0.1rem solid rgb(207, 207, 207);
+    }
+    ::placeholder {
+      color: rgb(181, 181, 181);
+      opacity: 1; /* Firefox */
+    }
+
+    .checkout-btn {
+      height: 52px;
+      width: 230px;
+      border-radius: 0.6rem;
+      background: transparent;
+      padding: 0px;
+      border: none;
+      cursor: pointer;
+      background: border-box rgb(74, 132, 44);
+      border-color: rgb(74, 132, 44);
+      color: #fff;
+      font-size: 17px;
+    }
+  }
+
+  .accept-text {
+    line-height: 1.5;
+    margin: 1.5rem 0px 0px;
+    color: rgb(130, 130, 130);
+    font-size: 14px;
+    overflow-wrap: break-word;
+  }
+}
+
+// <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeMedium MuiInputLabel-outlined css-1jy569b-MuiFormLabel-root-MuiInputLabel-root" data-shrink="true" for="outlined-basic" id="outlined-basic-label">Name on Card</label>
+
+// <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root" data-shrink="false" for="outlined-basic" id="outlined-basic-label">Card Number</label>

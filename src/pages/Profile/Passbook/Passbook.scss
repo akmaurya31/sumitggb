@@ -1,0 +1,126 @@
+#passbook .total_membership .box {
+  padding: 6px;
+}
+
+
+.passbookpage {
+  .total_membership {
+    gap: 12px;
+    text-align: center;
+  }
+  .item-discount {
+    h5 {
+      font-size: 13px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.wallte-div{
+  padding: 8px;
+  border-radius: 0px;
+}
+
+.order-cards {
+  .head-style h6 {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+
+.tableview-parent {
+  min-width: 350px;
+  overflow-x: scroll;
+  .order-detail {
+    min-width: 600px;
+    .order-card {
+      padding: 0 16px;
+      div {
+        padding: 8px 0;
+      }
+      box-shadow: 0px 0px 2px 0px;
+      border-radius: 5px;
+
+      .active {
+        background-color: rgb(247, 255, 249);
+        // border: 1px solid rgb(49, 134, 22);
+        color: rgb(49, 134, 22);
+        font-weight: 600;
+      }
+    }
+  }
+  // .order-card:nth-child(odd) {
+  //     background-color: #add8e61c;
+  //  }
+  //  .order-card:nth-child(even) {
+  //     background-color: #d8f1e5;
+  //  }
+}
+
+@media screen and (max-width: 768px) {
+  .passbookpage {
+    .total_membership {
+      gap: 8px;
+    }
+    .item-discount {
+      h5 {
+        font-size: 12px;
+      }
+      .box {
+        padding: 10px !important;
+        font-size: 10px !important;
+      }
+      .box.active {
+        font-size: 10px !important;
+      }
+    }
+
+    .order-cards .head-style h6 {
+      font-size: 10px;
+    }
+    .tableview-parent .order-detail .order-card {
+      font-size: 10px;
+    }
+  }
+  .wallte-div {
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.tableview-parent {
+  .order-detail {
+    .amount {
+      font-size: 18px;
+      color: rgb(12, 131, 31);
+      font-weight: 600;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .transection-history.tableview-parent {
+    min-width: auto;
+    .order-detail {
+      min-width: auto;
+      .title,
+      .order-no {
+        font-size: 12px;
+      }
+      .amount {
+        font-size: 14px;
+      }
+    }
+  }
+  .transection-history {
+    .offer-cuppon {
+      .offer-items {
+        display: flex;
+        gap: 10px;
+        align-items: start;
+        flex-direction: column;
+      }
+    }
+  }
+}

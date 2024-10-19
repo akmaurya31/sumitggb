@@ -1,0 +1,69 @@
+.dashboard-menu {
+    height: 100%;
+
+  .nav-link:hover {
+    color: #7e7e7e;
+  }
+
+  ul li {
+    margin-bottom: 0 !important;
+    a {
+      font-size: 16px;
+      padding: 15px 20px;
+
+      color: #7b777e;
+      border-top: 1px solid #eee;
+      cursor: pointer;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 500;
+      svg {
+        font-size: 20px;
+        fill: #318616;
+      }
+    }
+  }
+}
+
+.dashboard-menu ul li a.active{
+    background-color: #f9f9f9;
+    color: #333;
+    border-left: none;
+}
+
+
+.my-profile_rn {
+  font-size: 13px;
+  padding: 0;
+  background-color: #fff;
+  margin-bottom: 24px !important;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+
+  .card-header{
+    .title{
+      font-weight: 600;
+      font-size: 21px;
+      line-height: 28px;
+      color: rgb(28, 28, 28);
+      margin-bottom: 8px;  
+    }
+  }
+
+  .card-body{
+    padding: 0;
+  }
+}
+
+.map-autocomplte {
+  width: 92% !important;
+}
+
+@media screen and (min-width: 1260px) {
+  // .my-profile_rn {
+  //   width: 1275px;
+  //   margin: 0 auto;
+  // }
+}
+

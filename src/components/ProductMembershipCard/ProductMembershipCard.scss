@@ -1,0 +1,157 @@
+// .membership-new-card:first-child {
+//   padding-top: 0px;
+//   // border-bottom: 1px solid #8080803d;
+// }
+
+.membership-new-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 12px;
+
+  .pro-img {
+    .product-img {
+      width: 44px !important;
+      height: 44px !important;
+      img {
+        max-height: 44px;
+      }
+    }
+  }
+  .button.change-plan {
+    width: 100%;
+    background-color: #fde250;
+    color: black;
+    font-size: 12px !important;
+    padding: 12px !important;
+  }
+  .btn-sm.active {
+    font-size: 12px !important;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button.add:hover {
+    background-color: #fff;
+  }
+  .button.add {
+    font-size: 12px !important;
+    height: 39px;
+    width: 100%;
+  }
+}
+
+.membership-new-card.active-member-package {
+  background-color: #fde250;
+}
+
+// ====================================
+
+.product-membership-card {
+  // .active-package {
+  //   background: #daffe3;
+  // }
+
+  .active-check-icon {
+    position: absolute;
+    top: 2px;
+    z-index: 111;
+    fill: white;
+    right: 5px;
+  }
+  .modal-product-card.product-cart-wrap {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin-bottom: 10px;
+    width: 420px;
+
+    .react-responsive-modal-modal {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+    .button.change-plan {
+      width: 100%;
+      background-color: #fde250;
+      color: black;
+      font-size: 12px !important;
+      padding: 12px !important;
+    }
+    .btn-sm.active {
+      font-size: 12px !important;
+      width: 100%;
+      gap: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .button.add:hover {
+      background-color: #fff;
+    }
+    .button.add {
+      font-size: 12px !important;
+      height: 39px;
+      width: 100%;
+    }
+  }
+  
+  .membership-new-card.active-member-package {
+    background-color: #fde250;
+  }
+  
+  // ====================================
+  
+  .product-membership-card {
+    // .active-package {
+    //   background: #daffe3;
+    // }
+  
+    .active-check-icon {
+      position: absolute;
+      top: 2px;
+      z-index: 111;
+      fill: white;
+      right: 5px;
+    }
+    .modal-product-card.product-cart-wrap {
+      width: 500px;
+      margin: 0 auto 10px;
+      .product-img.product-img-zoom {
+        width: 60px !important;
+        height: auto !important;
+        max-height: 60px;
+      }
+      .veg-icon {
+        top: 33px;
+        left: 7px;
+      }
+  
+      .product-content-wrap h2 {
+        height: auto;
+      }
+    }
+  }
+
+  .membership-new-card {
+    border-bottom: 1px solid #8080803d;
+  }
+
+  .membership-new-card:first-child {
+    border-top: 1px solid #8080803d;
+  }
+
+ 
+}
+
+
+@media screen and (max-width: 600px) {
+  .membership-new-card:last-child {
+    // border-bottom: 0px solid #8080803d;
+    margin-bottom: 50px;
+  }
+}

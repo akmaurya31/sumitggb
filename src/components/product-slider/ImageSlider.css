@@ -1,0 +1,45 @@
+.image-slider {
+    display: flex;
+    align-items: center;
+  }
+  
+  .thumbnail-images {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .thumbnail-images img {
+    width: 100px; /* Set your thumbnail width */
+    height: auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+  
+  .thumbnail-images img.active {
+    opacity: 0.5; /* Adjust opacity for active thumbnail */
+  }
+  
+  .main-image {
+    position: relative;
+    width: 400px; /* Set your main image width */
+  }
+  
+  .ReactImageMagnify {
+    width: 100%;
+  }
+  
+.js-image-zoom__zoomed-image{
+  z-index: 1111 !important;
+   width: 735px !important;
+ 
+    background-size:cover !important; 
+    border: 1px solid #D3D3D3 !important;
+  
+}
+.main-image img{
+  margin: 0 auto;
+  width: auto !important; /* Set your main image width */
+  height: 400px;
+}

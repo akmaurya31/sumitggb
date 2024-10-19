@@ -1,0 +1,95 @@
+.bank-cards {
+  .card {
+    position: relative;
+    width: 23.2%;
+    height: 150px;
+    position: relative;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 8px;
+    padding: 0.6rem;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: none;
+    transition: box-shadow 0.2s ease-in-out 0s;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+
+    .ckecksign {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+
+      svg{
+        color: gray;
+        border: 1px solid;
+        border-radius: 50%;
+        padding: 2px;
+      }
+      
+    }
+
+    .item-title{
+      margin: 0 auto;
+    }
+
+    img {
+      width: 35px;
+      margin-bottom: 15px;
+    }
+
+    .title {
+      line-height: 1.5;
+      margin: 0px;
+      color: rgb(54, 54, 54);
+      font-size: 1.4rem;
+      font-weight: 500;
+      text-align: center;
+      width: 100%;
+      overflow-wrap: break-word;
+    }
+  }
+  .set-border {
+    position: relative;
+    border: 1.5px solid rgb(17, 145, 153);
+    border-radius: 8px;
+    // padding: 0.55rem;
+    background: rgb(246, 252, 252);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px 1px;
+    transition: box-shadow 0.2s ease-in-out 0s;
+
+    .ckecksign svg{
+      border: 1.5px solid rgb(17, 145, 153);
+      color: rgb(17, 145, 153);
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .bank-cards {
+    gap: 10px !important;
+    .card {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      padding-top: 10px !important;
+      .item-title{
+        margin: 0;
+      }
+  
+      img{
+        margin-bottom: 0;
+      }
+      .ckecksign{
+        position: unset;
+      }
+      .item-title {
+        display: flex;
+        gap: 10px;
+      }
+    }
+  }
+}

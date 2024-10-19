@@ -1,0 +1,40 @@
+// .zoom-preview {
+//   height: 300px;
+//   width: 300px;
+//   border: 1px solid #000;
+//   margin-left: 20px;
+//   background-repeat: no-repeat;
+// }
+
+
+// ===================
+.image-magnifier {
+  position: relative;
+  display: inline-block;
+}
+
+.small-image-container img {
+  display: block;
+  max-width: 300px;
+  height: auto;
+  cursor: zoom-in;
+}
+
+.large-image-container {
+  position: absolute;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  width: 600px;
+  height: 600px;
+}
+
+.large-image-container img {
+  position: absolute;
+  width: 1200px;
+  height: 1800px;
+}
+
+
+.large-image-style{
+  max-width: max-content;
+}

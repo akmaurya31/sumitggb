@@ -1,0 +1,169 @@
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body,
+input {
+  color: #666;
+  font-size: 12px;
+  font-family: "Okra", Helvetica;
+}
+
+// Scroll bar
+
+::-webkit-scrollbar {
+  // width: 1em;
+  height: 4px;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.scroll-to-top {
+  bottom: 80px !important;
+}
+
+// PAGINATION
+.page-item.active .page-link {
+  background-color: #0c831f !important;
+  border-color: #0c831f !important;
+}
+@media only screen and (max-width: 768px) {
+  .banner-img {
+    float: none !important;
+  }
+}
+
+
+.search-box-mobile{
+  padding: 0 12px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  gap: 8px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 8px;
+  div{
+    width: 100%;
+    input{
+      height: 46px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+
+.react-multi-carousel-item div:last-child   {
+  background-color: transparent !important;
+}
+
+
+@media (max-width: 1020px) {
+  .desktop-view {
+    display: none !important;
+  }
+  .mobile-view {
+    display: block !important;
+    width: 100%;
+  }
+  .react-responsive-modal-container{
+    .react-responsive-modal-modal{
+      padding-left: 8px !important;
+      padding-right: 8px !important;
+      // padding-top: 40px !important;
+    }
+  }
+}
+@media (min-width: 1021px) {
+  .desktop-view {
+    display: block !important;
+  }
+  .mobile-view {
+    display: none !important;
+  }
+}
+
+
+
+@media (min-width: 1260px) {
+  .container-fluid,
+  .MuiGrid-container {
+    max-width: 1300px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+// ==========================================================================
+// ==========================================================================
+
+
+@media screen and (min-width: 280px) {
+  main {
+    padding-top: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  main {
+    // padding-top: 1.5rem;
+    padding-top: 4rem;
+  }
+}
+@media screen and (min-width: 390px) {
+  main {
+    padding-top: 1.5rem;
+  }
+}
+@media screen and (min-width: 414px) {
+  main {
+    padding-top: 3rem;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  main {
+    padding-top: 3rem;
+  }
+}
+@media screen and (min-width: 540px) {
+  main {
+    padding-top: 5.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  main {
+    padding-top: 3rem;
+  }
+}
+@media screen and (min-width: 820px) {
+  main {
+    padding-top: 3rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main {
+    padding-top: 6rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  main {
+    padding-top: 6rem;
+  }
+}

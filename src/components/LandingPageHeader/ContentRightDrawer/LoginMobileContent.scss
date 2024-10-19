@@ -1,0 +1,102 @@
+
+.marquee-content {
+  display: flex;
+  animation: scrolling 10s linear infinite;
+}
+
+.marquee-item {
+  // flex: 0 0 16vw;
+  // margin: 0 1vw;
+  flex: 0 0 230vw; 
+/*   margin: 0 2vw; */
+}
+
+.marquee-item img {
+  display: block;
+  width: 100%;
+/*   padding: 0 20px; */
+}
+
+@keyframes scrolling {
+  0% { transform: translateX(0); }
+  // 100% { transform: translatex(-144vw); }
+  100% { transform: translatex(-100vw); }
+}
+
+
+
+.login-drawer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+
+.otp-label{
+  margin-bottom: 50px;
+}
+
+
+
+  .close-btn {
+    cursor: pointer;
+    padding: 8px;
+    font-size: 20px;
+    left: 15px;
+    top: 15px;
+    z-index: 100001;
+    color: rgb(31, 31, 31);
+    position: fixed;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+  }
+  .login-section {
+    padding: 10px;
+
+    position: absolute;
+    bottom: 0px;
+    box-shadow: rgb(255, 255, 255) -10px -20px 11px 20px;
+    z-index: 1000;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    align-items: center;
+
+
+    .logo {
+      img {
+        height: 65px;
+      }
+    }
+
+    form {
+      width: 85%;
+      margin: 0 auto;
+
+      
+    }
+
+    .footer-text {
+      text-align: center;
+      span {
+        color: rgb(105, 105, 105);
+        font-size: 12px;
+        a {
+          text-decoration: underline dotted !important;
+          color: rgb(105, 105, 105);
+        }
+      }
+    }
+  }
+}

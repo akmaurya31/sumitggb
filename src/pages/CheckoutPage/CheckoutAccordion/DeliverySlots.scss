@@ -1,0 +1,36 @@
+.delivery-slots {
+  .header {
+    background-color: #fff;
+    margin-bottom: 8px;
+  }
+//   .body {
+//     background-color: #f0f0f0;
+//     padding: 5px;
+//   }
+
+  .MuiFormControl-root {
+    width: 100%;
+  }
+
+  .MuiFormControlLabel-root {
+    background: #fff;
+    padding: 0px 5px;
+    margin: 0 0 8px;
+
+    label {
+      margin-bottom: 0px;
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+  .MuiFormControlLabel-root:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.date-green {
+  background: #0c831f;
+  bottom: 12px;
+  color: white;
+}

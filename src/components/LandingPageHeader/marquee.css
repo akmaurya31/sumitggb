@@ -1,0 +1,38 @@
+.input-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .label {
+    animation: placeholderAnim 1.3s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    margin-left: 40Px;
+    color: #777;
+    pointer-events: none;
+  }
+
+  @keyframes scrollAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  @keyframes placeholderAnim {
+    0% {
+      opacity: 0.5;
+      transform: translateY(0);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(-50%);
+    }
+    
+    100% {
+      opacity: 0.1;
+      transform: translateY(-100%);
+    }
+  }

@@ -1,0 +1,24 @@
+.active {
+  .MuiBox-root {
+    display: none;
+  }
+}
+
+#drawer-bottom{
+
+  
+  .MuiPaper-root {
+    max-width: 100% !important;
+    width: 100%;
+    z-index: 111111;
+  }
+
+  // Drawer Height incres
+  .MuiBox-root{
+    top: -130px;
+
+    .MuiBox-root{
+      background-color: transparent;
+    }
+  }
+}

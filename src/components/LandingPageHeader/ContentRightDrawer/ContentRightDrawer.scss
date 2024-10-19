@@ -1,0 +1,137 @@
+.content-right-drawer {
+
+  // .view-cart-btn {
+  //   align-items: center;
+
+  //   position: fixed;
+  //   left: 12px;
+  //   right: 12px;
+  //   display: flex;
+  //   z-index: 10001;
+  //   background: rgb(12, 131, 31);
+  //   bottom: 12px;
+  //   color: white;
+  //   border-radius: 12px;
+  //   padding: 6px 18px 6px 12px;
+  //   margin: 0px auto;
+  //   -webkit-box-pack: justify;
+  //   justify-content: space-between;
+  //   transition: transform 300ms linear 0s;
+  //   transform: translate(0px);
+  //   opacity: 1;
+
+  //   .cart-icon {
+  //     background: #ffffff3d;
+  //     width: 35px;
+  //     height: 35px;
+  //     padding: 7px;
+  //     border-radius: 10px;
+  //   }
+
+  //   .shoppig {
+
+  //     span {
+  //       font-weight: 500;
+  //       font-size: 12px;
+  //       line-height: 14px;
+  //       margin-bottom: 2px;
+  //     }
+
+  //     .amount{
+  //       font-weight: 500;
+  //       font-size: 15px;
+  //       line-height: 20px;
+  //       margin-right: 4px;
+  //     }
+
+  //     .view{
+  //       span{
+  //         font-style: normal;
+  //         font-weight: 400;
+  //         font-size: 17px;
+  //         line-height: 22px;
+  //       }
+  //     }
+  //   }
+  // }
+
+  .title-head {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+  }
+
+  .account-number {
+    font-size: 12px;
+    padding-top: 8px;
+    color: rgb(102, 102, 102);
+    svg{
+      font-size: 10px;
+    }
+  }
+
+  .address-text {
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: auto;
+    max-width: 156px;
+    text-overflow: ellipsis;
+  }
+
+  .info-sec {
+    // padding-top: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 90px;
+    p {
+      font-size: 12px;
+      margin-bottom: 8px;
+      color: rgb(153, 153, 153);
+      display: block;
+    }
+
+    .menu-items{
+      height: 68vh;
+      overflow-y: scroll;
+
+      .nav-link.active{
+        background-color: #f9f9f9;
+        color: #333;
+      }
+    }
+    .menu-item {
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      padding-top: 8px;
+      padding-bottom: 4px;
+
+      .icon-box{
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        background-color: rgb(247, 247, 247);
+   
+        border-radius: 12px;
+        width: 40px;
+        height: 40px;
+        color: #02020278;
+      }
+      
+      h6 {
+        font-size: 16px;
+        color: black;
+        display: inline-block;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

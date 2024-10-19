@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "GENERAL",
+    "content": [
+      {
+        "desc": "Guru Vardan Consumer Products Private Limited, having its registered office at C-37, Sector -F, Parag Chauraha, near PNB ATM, LDA Colony, Lucknow, 226012 (“Guru Vardan Consumer Products”, “we”, “us” or “our”) is managing and operating the mobile application/website and tablet applications available at www.ghargharbazaar.com/ (collectively referred to as “Ghar Ghar Bazaar”, “Website”, “App”), which inter alia facilitate the sale and purchase of products and services listed and sold (“Product(s)”) on the Website. The term “User” or “Users” or “you” or “your” means any individual which uses, accesses or, browses the Website and/or purchases the Products on the Website."
+      },
+      {
+        "desc": "Our commitment is to ensure a seamless user experience from the moment you place an order to the process of canceling, returning, or initiating a refund. When engaging with Ghar Ghar Bazaar, anticipate a trouble-free experience in managing your orders, and consider us your go-to shopping destination where reliability meets convenience."
+      },
+      {
+        "desc": "This cancellation, return, and refund policy ('Policy'), in conjunction with the Terms and Conditions available on Ghar Ghar Bazaar, incorporates the procedures and guidelines of Guru Vardan Consumer Products Private Limited regarding: (a) cancellation, (b) return, and (c) refund processes. Your cancellation or refund requests for products are bound by the terms outlined in this Policy. It is recommended to review the 'Terms & Conditions' for comprehensive details."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "APPLICABILITY OF POLICY",
+    "content": [
+      {
+        "desc": "By utilizing Ghar Ghar Bazaar or making a request to purchase Product(s) through the platform, you acknowledge and agree to comply with the terms outlined in this Policy. If you do not consent to the terms specified herein, it is recommended that you refrain from conducting transactions on Ghar Ghar Bazaar. Please be aware that the terms of this Policy may be subject to periodic changes. It is advisable to review the Policy each time you intend to use Ghar Ghar Bazaar to stay informed about the current terms and conditions."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "TERMS OF CANCELLATION",
+    "content": [
+      {
+        "desc": "Cancellation of an order is possible at any time before the Product is dispatched. Once the dispatch process has commenced, cancellation is no longer feasible. If you decide to cancel the order after the Products have been dispatched, please contact Customer Support to request cancellation. We will make every effort to prevent delivery, but if attempted, you have the option to reject the delivery."
+      },
+      {
+        "desc": "You can initiate a cancellation request for your order by either accessing the 'My Orders' section, calling our customer care number, or utilizing any other method communicated by Guru Vardan Consumer Products Pvt Ltd as specified periodically."
+      },
+      {
+        "desc": "Upon receiving your request for order cancellation, the cancellation will be promptly processed, and for prepaid orders, the refund procedure will commence within 48 hours following the confirmation of cancellation."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "TERMS OF RETURN AND REFUND",
+    "content": [
+      {
+        "desc": "You are eligible to initiate the return of products within the specified timelines and in accordance with the conditions outlined in Annexure A (refer to the table provided at the end of this Policy). The request for the return of the product will be accepted based on the terms set forth in this Policy. It's important to note that Guru Vardan Consumer Products Private Limited will not facilitate the return process if the order was placed for an incorrect product model, color, or an inaccurate product."
+      },
+      {
+        "desc": "All our packages are equipped with tamper-proof packaging. Kindly refrain from accepting packages with a tampered seal and/or visibly damaged outer packaging. Acceptance of such tampered or damaged packages will result in disqualification from any return claims related to physically damaged or defective products, incorrect product, or missing accessories."
+      },
+      {
+        "desc": "To register a complaint or request a return through Ghar Ghar Bazaar, you can choose the relevant option from the drop-down menu or get in touch with us via email, call, or chat. To initiate a return, select 'log a complaint,' furnish essential shipment and order details, describe any issues, and request a return. For quality assurance, we may request images of the product intended for return. The option for 'return' is only accessible during the specified return window period. If you encounter any issues or concerns after the return window has closed, feel free to contact our customer care."
+      },
+      {
+        "desc": "Upon receiving any eligible product for return as per this policy, we advise you to promptly register a request on Ghar Ghar Bazaar. We will, at our discretion, verify whether: (a) the claimed defects, damages, or non-compliances in the products meet our acceptance criteria, or (b) such issues are attributable to our default. Following the verification process, we will either approve or reject the return request. As part of this verification, we may ask you to provide images or videos (up to 60 seconds or 2MB) showcasing the damaged or defective product, images of the product packaging, and may schedule a visit by our personnel to assess the damage or defect. Subsequently, Guru Vardan Consumer Products Private Limited, at its discretion, will address the reported issue based on the assessment report in a manner it deems appropriate."
+      },
+      {
+        "desc": "Upon choosing to return the products and after our verification of the products and related documents, the refund for eligible products under this policy will be processed within one business day from the date of verifying the defect or non-compliance in the product. Please note that your refund will only be processed if you meet the conditions specified by Guru Vardan Consumer Products Private Limited. The refund amount will be credited to your original payment mode or, for Wallet refunds, to your Ghar Ghar Bazaar-associated wallet, based on your preference. It's important to acknowledge that the time for your refund to reflect in your account, after initiation, may vary and is subject to the terms and conditions of your financial institution or payment solution provider."
+      },
+      {
+        "desc": "Kindly note that for products where you selected 'Cash on Delivery' as the payment option, refunds will be processed to your bank account (based on the details you provided to us) in the event that the product is purchased from a third-party seller. However, if the sale was facilitated by Guru Vardan Consumer Products Private Limited, your refund will be credited to your Ghar Ghar Bazaar-associated wallet. It's important to clarify that we do not provide cash refunds."
+      },
+      {
+        "desc": "The refund amount will be reimbursed to you within 15 (fifteen) working days, subject to the chosen payment method. Occasionally, banks or financial intermediaries may take additional time to process refund requests. If, however, the refund is not processed by the advised date, please feel free to reach out to us, and we will be happy to assist you."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "CUSTOMER SUPPORT TEAM"
+  }
+]

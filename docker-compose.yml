@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  react-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000" # Maps port 3000 on the host to port 3000 in the container
+    volumes:
+      - .:/usr/src/app # Mounts the current directory to /usr/src/app in the container
+      - /usr/src/app/node_modules # Ensures node_modules from the container are not overridden by the host
+    environment:
+      - NODE_ENV=development # Set the Node environment to development
+    command: sh -c "npm install --legacy-peer-deps && npm start"

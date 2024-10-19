@@ -1,0 +1,82 @@
+.hero-sec{
+  .title {
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
+    // color: #0c831f;
+    margin-top: 0;
+  }
+  .subtitle{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  .sub{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #866b00;
+  }
+}
+
+
+.react-multi-carousel-track {
+  // gap: 10px;
+  gap: 1px;
+}
+
+@media only screen and (max-width: 480px){
+.section-title {
+    display: flex;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+  // .react-multi-carousel-track {
+  //   gap: 5px;
+  // }
+
+}
+
+@media screen and (min-width: 250px) {
+  #landing-page {
+    padding-top: 75px;
+  }
+}
+@media screen and (min-width: 350px) {
+  #landing-page {
+    padding-top: 95px;
+  }
+}
+@media screen and (min-width: 405px) {
+  #landing-page {
+    padding-top: 100px;
+  }
+}
+@media screen and (min-width: 481px) {
+  #landing-page {
+    padding-top: 140px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #landing-page {
+    padding-top: 100px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #landing-page {
+    padding-top: 160px;
+  }
+}
+@media screen and (min-width: 1020px) {
+  #landing-page {
+    padding-top: 105px;
+  }
+}
+@media screen and (min-width: 1166px) {
+  #landing-page {
+    padding-top: 55px;
+  }
+}

@@ -1,0 +1,129 @@
+.slick-list {
+    /* height: 500px !important; */
+}
+
+.user-icon {
+    margin-right: 20px;
+}
+
+
+@media screen and (min-width:300px) and (max-width: 600px)
+{
+    .sf
+    {  
+        width: 682px;
+    } 
+    .pricing-card-elite
+    {  
+        margin: 20px -2px 20px 9px;
+        overflow-x: scroll;
+    }
+    .pricing-card-elite .col-md-1
+    {
+        display: flex;
+        justify-content: center;
+    }
+    
+    h1, h2.headm {       
+        font-size: 24px !important;
+    }
+    .sub-main {     
+        font-size: 15px;
+    }
+    .freshGlow
+    {
+        font-size: 21px !important;
+    }
+    .logo {
+        max-width: 10.5em!important;
+    }
+    .mt-smc-2,.bfc_lounge .box
+    {
+        margin-top: 2em !important;
+    }
+    .main-menu li {       
+        padding-bottom: 10px;
+    }
+    .fsc {
+        font-size: 0.9rem!important;
+    }
+    .pb-smc-4
+    {
+padding-bottom: 1.5rem;
+    }
+    .copyright a {
+        font-size: 12px;
+    }
+    .copyright .col-md-8
+    {
+        text-align: center !important;
+    }
+    .book ul {       
+        height: 234px !important;
+    }
+    .d-m-none
+    {
+        display: none !important;
+    }
+    .preview-box {      
+        top: 40% !important;
+    }
+
+
+    .home .row .books-slider a img {
+        height: auto;
+        margin-bottom: -10px;
+    }
+    .home {
+        height: 92vh;
+    }
+
+    .klf-caption h3 {
+        font-size: 25px;
+    }
+
+    .klf-caption h2 {
+        font-size: 18px;
+    }
+
+    .why-img-c{
+        float: none !important;
+        display:none;
+    }
+    .why-img1, .shape-mockup2{
+display: none;
+    }
+    .why-img2{
+        top: 0;
+    }
+    .testi-box{
+        flex-direction: column;
+    }
+    .testi-box_img>img {
+        max-width: 235px !important;
+        display: inline-block !important;
+    }
+
+    .owl-carousel .owl-nav button.owl-next{
+        right: -10px;
+    }
+    .owl-carousel .owl-nav button.owl-prev{
+        left: -10px;
+    }
+    .fs-sm-13
+    {
+        font-size: 12px !important;
+    }
+
+} 
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .MT35 {
+        margin-top: 42px !important;
+    }
+}
+
+.mLR20{
+    margin-left: 20px;
+    margin-right: 20px;
+}

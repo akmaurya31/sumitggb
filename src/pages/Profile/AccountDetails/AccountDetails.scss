@@ -1,0 +1,40 @@
+.account-details-style{
+    .form-group{
+        margin-bottom: 10px;
+        p{
+            color: red;
+            font-size: 12px;
+        }
+    }
+}
+.rmdp-container {
+    width:100% !important;
+    z-index: 1111 !important;
+}
+.rmdp-input{
+    border: unset !important;
+    padding-left: 0px !important;
+    height: auto  !important;
+    width:100% !important;
+}
+.rmdp-arrow{
+    border: solid #0c831f !important;
+    border-width: 0 2px 2px 0 !important;
+}
+.rmdp-arrow-container:hover{
+    background-color: white !important;
+}
+.rmdp-week-day{
+    color: #0c831f !important;
+}
+.rmdp-day.rmdp-selected span:not(.highlight){
+    background-color: #0c831f !important;
+}
+.rmdp-day:not(.rmdp-disabled,.rmdp-day-hidden) span:hover{
+    background-color: #45a155 !important;
+}
+.calender-icon{
+    right: 9px;
+    font-size: 10px;
+    top: 15px;
+}

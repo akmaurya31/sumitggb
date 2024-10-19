@@ -1,0 +1,58 @@
+.accordion-body {
+  visibility: visible;
+}
+
+.accordion-button:not(.collapsed),
+.accordion-button {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin: 0px;
+  color: rgb(28, 28, 28);
+  background-color: transparent;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  border-bottom: none;
+}
+
+.accordion {
+  .accordion-body {
+    // border: 1px solid #a3a3a340;
+    border-top: none;
+  }
+}
+
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #a3a3a340;
+  border-bottom: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+#accordionParentCheckout{
+  .accordion-item:first-child {
+      .accordion-body {
+          background-color: #f0f0f0;
+      }
+  }
+}
+
+
+.accordion-button.cursor-not-allowed {
+  cursor: not-allowed !important;
+}
+@media screen and (max-width: 1024px) {
+    
+    #accordionParentCheckout{
+        .accordion-item {
+            .accordion-body {
+                padding: 8px;
+            }
+        }
+    }
+
+  
+}

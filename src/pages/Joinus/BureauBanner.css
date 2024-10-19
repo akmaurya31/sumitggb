@@ -1,0 +1,19 @@
+.bureauBannerShortCode {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bureauBannerShortCode img {
+    margin-right: 10px;
+  }
+  
+  .bureauBannerShortCode p {
+    margin: 0;
+  }
+  
+  .bureauBannerShortCode a {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  

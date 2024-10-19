@@ -1,0 +1,1 @@
+export const Image_Base_Url="https://www.allwinmedico.in/ggb-api/resources/images"

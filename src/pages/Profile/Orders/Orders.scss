@@ -1,0 +1,77 @@
+.orderpage {
+  .page-item.active {
+    .page-link {
+      background-color: rgb(12, 131, 31) !important;
+      border-color: rgb(12, 131, 31) !important;
+    }
+  }
+  .page-link {
+    color: rgb(12, 131, 31);
+  }
+  .page-link:hover {
+    color: rgb(12, 131, 31);
+  }
+
+  .table-responsive {
+    .table {
+      min-width: 600px;
+      th{
+        font-size: 14px;
+      }
+      td{
+        font-size: 12px;
+      }
+      td.address{
+        overflow: hidden;
+        display: block;
+        max-height: 30px;
+        line-height: 30px;
+        max-width: 290px;
+        -webkit-line-clamp: 1;
+        display: box;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        white-space: normal;
+      }
+    }
+    
+  }
+
+  ::-webkit-scrollbar {
+    width: 1em;
+    height: 4px
+}
+
+  .btn {
+    font-size: 10px;
+    padding: 5px;
+  }
+  .btn.btn-outline-primary{
+    color: #318616;
+    border-color: #318616;
+  }
+  .btn.btn-outline-primary:hover{
+    color: #fff;
+    background-color: #318616;
+  }
+  .btn:hover{
+    color: #fff;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .table td {
+    display: table-cell;
+    width: auto;
+    text-align: left;
+  }
+  .table thead {
+    display: table-header-group;
+    font-size: 10px !important;
+  }
+  .table tbody {
+    font-size: 11px !important;
+  }
+}

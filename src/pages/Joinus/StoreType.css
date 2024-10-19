@@ -1,0 +1,16 @@
+ 
+  .table {
+    margin: auto; /* Center the table horizontally */
+    width: 80%;
+    border: 3px dotted #094b8f;
+
+  }
+  
+  .row80 {
+    width: 80% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10%;
+}
+ 

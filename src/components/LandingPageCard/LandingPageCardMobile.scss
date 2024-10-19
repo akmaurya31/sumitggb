@@ -1,0 +1,33 @@
+@media (max-width: 1020px) {
+  .container-fluid.mobile-view {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  .main {
+    padding-right: 0;
+    padding-left: 0;
+    // padding-top: 125px;
+  }
+
+  .mobile-view{
+    .hero-sec{
+        .hero-bg{
+            width: 100%;
+        }
+        .download-btn{
+            .title{
+                font-size: 1.1rem;
+                margin-top: 12px;
+                font-weight: 700;
+            }
+        }
+    }
+  }
+}
+@media (min-width: 1021px) {
+  .main {
+    padding-left: 0.5rem /* 8px */;
+    padding-right: 0.5rem /* 8px */;
+    
+  }
+}
